@@ -40,8 +40,8 @@ void TensioneSoglia30()
     gGraph->SetMarkerSize(0.6);
     gGraph->SetMarkerStyle(21);
     //gGraph->SetX(0);
-    gGraph->SetTitle("Count(DeltaV)");
-    gGraph->GetXaxis()->SetTitle("DeltaV ");
+    gGraph->SetTitle("Count(∆V)");
+    gGraph->GetXaxis()->SetTitle("∆V [V]");
     
     gGraph->GetYaxis()->SetTitle("Count ");
     gGraph->Draw("AP");
